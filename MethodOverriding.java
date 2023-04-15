@@ -1,12 +1,12 @@
 class Parent
 {
-public void f1()
+public void f()
 {
 System.out.println("Parent class");
 }
 }
 class Child extends Parent{
-public void f1()
+public void f()
 {
 System.out.println("Child class");
 }
@@ -16,6 +16,7 @@ class MethodOverriding
 public static void main(String args[])
 {
 Parent p = new Parent();
-p.f1();
+p.f();
 }
 }
+#where is abstraction
